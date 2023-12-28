@@ -1,0 +1,103 @@
+
+*{
+    font-family: 'Chillax', sans-serif;
+    box-sizing: border-box!important;
+}
+.fsbtn{
+    outline: none;
+    border: none;
+    padding:5px;
+    width: 25%;
+    color: white;
+    background-color: #3B7FBF;
+    border: 1px solid white;
+    border-radius:8px;
+    margin-top: 17px;
+
+ 
+}
+.Companytext{
+    position: relative;
+    text-transform: uppercase;
+}
+.Companytext::after{
+    background-color:rgba(255, 255, 255, 0.493);
+    display: block;
+    width: 88%;
+    height: 2px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+    margin-left: 5px;
+}
+.Companytext2{
+    position: relative;
+    text-transform: uppercase;
+
+}
+.Companytext2::after{
+    background-color:rgba(255, 255, 255, 0.493);
+    display: block;
+    width: 83%;
+    height: 2px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+    margin-left: 5px;
+}
+.col-md-5 .para{
+   color: rgba(255, 255, 255, 0.603);
+   margin-top: 20px;
+
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.603);
+   margin-top: 20px;
+
+}
+.link ul li {
+    list-style: none;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.603);
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.link ul li:hover {
+    text-decoration:underline;
+color: rgba(0, 0, 0, 0.336);
+
+}
+.link ul li button:hover{
+    text-decoration:underline;
+    color: rgba(0, 0, 0, 0.336);
+
+}
+.Secbtn{
+    outline: none;
+    border: none;
+    padding:5px;
+    color: white;
+    background-color: #3B7FBF;
+}
+.icon{
+    cursor: pointer;
+
+}
+.icon img{
+    width:30px
+}
+
+.icon img:hover {
+    transform: rotateY(-50deg);
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+
+
+
+
+
