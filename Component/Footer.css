@@ -28,18 +28,20 @@
 .Companytext{
     position: relative;
     text-transform: uppercase;
+
 }
 .Companytext::after{
     background-color:rgba(255, 255, 255, 0.493);
     display: block;
-    width: 88%;
+    width: 81%;
     height: 1px;
     content: "";
     position: absolute;
+    margin-right: 75px;
     right: 0;
-    top: 50%;
+    top: 65%;
     z-index: 1;
-    margin-left: 5px;
+    text-align: center;
 }
 .Companytext2{
     position: relative;
@@ -49,14 +51,33 @@
 .Companytext2::after{
     background-color:rgba(255, 255, 255, 0.493);
     display: block;
-    width: 83%;
+    width: 77%;
     height: 1px;
     content: "";
     position: absolute;
-    right: 0;
-    top: 50%;
+    margin-right: 75px;
+    right: 0px;
+    top: 65%;
     z-index: 1;
-    margin-left: 5px;
+    text-align: center;
+}
+.Companytext3{
+    position: relative;
+    text-transform: uppercase;
+}
+.Companytext3::after{
+    background-color:rgba(255, 255, 255, 0.493);
+    display: block;
+    width: 82%;
+    height: 1px;
+    content: "";
+    position: absolute;
+    margin-right: 75px;
+    right: 0px;
+    top: 65%;
+    z-index: 1;
+    text-align: center;
+
 }
 .col-md-5 .para{
    color: rgba(255, 255, 255, 0.603);
@@ -79,6 +100,7 @@
     color: rgba(255, 255, 255, 0.603);
 
 }
+
 .Secbtn{
     outline: none;
     border: none;
@@ -98,12 +120,20 @@
 .icon img{
     width:30px;
     margin-bottom:10px;
+    margin-top:10px;
 }
 .icon img:hover {
     transform: translate(0, -10%) scale(1.1);
     transition: transform 0.3s ease; 
 }
-
+.last{
+    font-size: 12px;
+   
+}
+.icon-link{
+  margin-left: px;
+  
+}
 
 
 
