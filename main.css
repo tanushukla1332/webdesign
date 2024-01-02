@@ -103,6 +103,23 @@ a.nav-link:hover {
     background-color: #5E5E5E;
 
 }
+.btn5 {
+    display: inline-block;
+    color: #5E5E5E;
+    background-color: #FFFFFF;
+    border: none;
+    width: 150px;
+    font-weight:550;
+    height:40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+.btn5:hover{
+    background-color: #3B7FBF!important;
+    color: #FFFFFF;
+}
 
 .hed1{
     position: absolute;
